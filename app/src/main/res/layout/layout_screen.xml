@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_width="172dp"
+        android:layout_height="54.33dp"
+        android:layout_marginBottom="50dp"
+        android:background="@drawable/logo"
+        app:layout_constraintBottom_toTopOf="@id/intro_img"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageView
+        android:id="@+id/intro_img"
+        android:layout_width="wrap_content"
+        android:layout_height="230dp"
+        android:layout_marginStart="@dimen/activity_horizontal_margin8dp"
+        android:layout_marginLeft="@dimen/activity_horizontal_margin8dp"
+        android:layout_marginEnd="@dimen/activity_horizontal_margin8dp"
+        android:layout_marginRight="@dimen/activity_horizontal_margin8dp"
+        android:layout_marginBottom="@dimen/activity_vertical_margin32dp"
+        app:layout_constraintBottom_toTopOf="@id/intro_title"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:srcCompat="@drawable/img1" />
+
+    <TextView
+        android:id="@+id/intro_description"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/activity_horizontal_margin32dp"
+        android:layout_marginTop="@dimen/activity_vertical_margin8dp"
+        android:layout_marginEnd="@dimen/activity_horizontal_margin32dp"
+        android:fontFamily="@font/nunito_sans_semibold"
+        android:text="TextView"
+        android:textAlignment="center"
+        android:textColor="#2B2839"
+        android:textSize="14sp"
+        android:letterSpacing="0.1"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/intro_title"
+        app:layout_constraintVertical_bias="0.13" />
+
+    <TextView
+        android:id="@+id/intro_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/activity_horizontal_margin8dp"
+        android:layout_marginTop="@dimen/activity_vertical_margin32dp"
+        android:layout_marginEnd="@dimen/activity_horizontal_margin8dp"
+        android:layout_marginBottom="33.33dp"
+        android:fontFamily="@font/nunito_sans_black"
+        android:text="TextView"
+        android:textAlignment="center"
+        android:textColor="#000"
+        android:textSize="25sp"
+        android:letterSpacing="0.15"
+        app:layout_constraintBottom_toTopOf="@+id/guideline"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/guideline" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.71" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

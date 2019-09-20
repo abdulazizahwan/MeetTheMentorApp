@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="activity_horizontal_margin8dp">8dp</dimen>
+    <dimen name="activity_vertical_margin8dp">8dp</dimen>
+
+    <dimen name="activity_horizontal_margin16dp">16dp</dimen>
+    <dimen name="activity_vertical_margin16dp">16dp</dimen>
+
+    <dimen name="activity_horizontal_margin32dp">32dp</dimen>
+    <dimen name="activity_vertical_margin32dp">32dp</dimen>
+
+    <dimen name="activity_horizontal_margin64dp">64dp</dimen>
+    <dimen name="activity_vertical_margin64dp">64dp</dimen>
+
+</resources>
